@@ -1,13 +1,16 @@
 #include <iostream>
 
 int main(){
+    // int x; //declaration
+    // x = 5; //assignment
 
-    //This is a comment
-    /*
-      this is a 
-      multiline comment 
-    */
-    std::cout << "I like pizza!" << '\n';
-    std::cout << "It's really good!" << '\n';
+    int x = 5;
+    int y = 10;
+    int sum = x + y;
+
+    std::cout << x << '\n';
+    std::cout << y << '\n';
+    std::cout << sum << '\n';
+
     return 0;
 }
